@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>voto Obrigatorio</title>
+</head>
+<body>
+    <h1>Obrigatoriedade de Votação</h1>
+
+    <script>
+    
+    let idade = prompt("Quantos anos você tem? ")
+    
+    if(idade<=15){
+        document.write("Você não pode votar!! ")
+    }    
+    else if(idade>=16 && idade<=17){
+        document.write("O seu voto è OPCIONAL!! ")
+    }
+    else if(idade>=18 && idade<=69){
+        document.write("O seu voto è OBRIGATORIO!! ")
+    }
+    else{
+        document.write("o seu voto é OPCIONAL!!")
+    }
+    </script>
+</body>
+</html>
