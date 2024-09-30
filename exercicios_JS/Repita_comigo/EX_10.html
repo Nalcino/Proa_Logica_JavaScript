@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+</head>
+<body>
+    <h1>Tabuada</h1>
+
+    <script>
+        let N = parseInt(prompt("Digite um valor N :"));
+
+    if (N > 0) {
+
+    for (let i = 1; i <= N; i++) {
+    document.write("<h2>Tabuada do " + i + ":</h2>"); 
+    
+   
+    for (let t = 1; t <= 10; t++) {
+      let resultado = i * t;
+      document.write(i + " x " + t + " = " + resultado + "<br>"); 
+    }
+    
+    document.write("<br>"); 
+  }
+    } else {
+  document.write("Por favor, informe um número maior que ZERO."); 
+}
+    </script>
+</body>
+</html>

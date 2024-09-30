@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+    let dentro = 0;
+    let fora = 0;
+
+    for (let i = 0; i < 10; i++) {
+
+    let numero = prompt("Digite o " + (i+1) + "número:");
+
+
+    let numeroInteiro = parseInt(numero);
+
+ 
+    if (numeroInteiro >= 24 && numeroInteiro <= 42) {
+        dentro++;
+    } else {
+        fora++;
+    }
+}
+
+console.log("Números dentro do intervalo: " + dentro);
+console.log("Números fora do intervalo: " + fora);
+
+    </script>
+</body>
+</html>
+

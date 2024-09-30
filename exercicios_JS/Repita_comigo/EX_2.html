@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bomba Relógio</title>
+</head>
+<body>
+    <h1>Bomba Relógio</h1>
+
+    <script>
+        let tempo =30;
+
+        function contagem(){
+            document.write(tempo + "<br>");
+            tempo--;
+
+            if (tempo <0){
+                alert("EXPLOSÃO")
+            }
+            else{
+                setTimeout(contagem, 1000);
+            }
+        }
+
+        contagem();
+    </script>
+</body>
+</html>
+
