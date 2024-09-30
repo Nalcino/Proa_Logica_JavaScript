@@ -15,14 +15,13 @@ while (true) {
   let nota1 = parseFloat(prompt("Digite a nota do aluno:"));
   let nota2 = parseFloat(prompt("Digite a segunda nota do aluno:"));
 
-  // Calcula a média
   let media = (nota1 + nota2) / 2;
 
   if (media >= 9.5) {
     passou++; 
-    document.write("Média final: " + media + " - Aluno aprovado!<br>");
+    document.write("Média final: " + media + "  Aluno aprovado!<br>");
   } else {
-    document.write("Média final: " + media + " - Aluno reprovado.<br>");
+    document.write("Média final: " + media + "  Aluno reprovado.<br>");
   }
 
   let resposta = prompt("Calcular a média de outro aluno? (S/N)").toUpperCase();
